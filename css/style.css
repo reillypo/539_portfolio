@@ -48,6 +48,7 @@ nav{
 
 u{
     color: #A60707;
+    text-transform: uppercase;
 }
 
 div {
@@ -687,7 +688,7 @@ ol, li{
     list-style-type: none;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) and (max-width: 1199px){
     .wrapper{
         display: grid;
         grid-template-columns: 1fr 2fr;
