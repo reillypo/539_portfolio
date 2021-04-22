@@ -6,10 +6,6 @@ body{
     text-align: center;
 }
 
-/* html, body{
-  overflow-y: scroll;
-} */
-
 header{
     background: #fff;
     display: flex;
