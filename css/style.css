@@ -739,8 +739,15 @@ ol, li{
 }
 
 .flip-card-back p{
-  margin-top: 10px;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  padding: 0px;
 }
+
+
 
 /* Tablet view */
 @media (min-width: 768px){
@@ -820,31 +827,29 @@ ol, li{
 
 
   #competitive_analysis{
-    height:600px;
-    width: auto;
-    max-width: 90%;
+    height:700px;
 }
 
   .paper_sketch{
-    height:300px;
+    height:400px;
   }
 
   .paper_prototype{
-    height: 400px;
+    height: 500px;
   }
 
 
   .persona{
-    height: 300px;
+    height: 400px;
   }
 
   .gainer_homescreen{
-    height: 400px;
+    height: 500px;
 
   }
 
   #gainerimage1{
-    height: 300px;
+    height: 400px;
   }
 
   .site_title{
@@ -852,8 +857,13 @@ ol, li{
   }
 
   #resume_pic{
-    height: 600px;
+    height: 700px;
 }
+  
+  .hraffinitywall{
+    height: 300px;
+  }
+
 
   iframe{
     width: 50%;
@@ -862,7 +872,7 @@ ol, li{
 }
 
 /* Desktop/laptop view */
-@media (min-width: 2000px){
+@media (min-width: 1200px){
   .wrapper{
       display: grid;
       grid-template-columns: 1fr 2fr;
@@ -888,6 +898,10 @@ ol, li{
       justify-content: space-evenly;
     }
 
+  .nav_item a{
+    font-size: 1.5em;
+  }
+
   .site_title{
       font-size: 64px;
   }
@@ -906,29 +920,19 @@ ol, li{
 
   h1{
     font-size: 5em;
-    padding-left:15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 15px;
 }
 
 h2{
     font-size: 2.5em;
-    padding-left: 15px;
-    padding-right: 15px;
-}
+  }
 
 h3{
     font-size: 2.25em;
-    padding-left: 15px;
-    padding-right: 15px;
-    line-height: 1;
+    
 }
 
 h4{
     font-size: 2em;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 
@@ -938,31 +942,29 @@ h4{
   }
 
   #competitive_analysis{
-    height:600px;
-    width: auto;
-    max-width: 90%;
+    height:800px;
 }
 
   .paper_sketch{
-    height:300px;
+    height:500px;
   }
 
   .paper_prototype{
-    height: 400px;
+    height: 600px;
   }
 
 
   .persona{
-    height: 300px;
+    height: 500px;
   }
 
   .gainer_homescreen{
-    height: 400px;
+    height: 600px;
 
   }
 
   #gainerimage1{
-    height: 300px;
+    height: 500px;
   }
 
   .site_title{
@@ -970,8 +972,12 @@ h4{
   }
 
   #resume_pic{
-    height: 600px;
+    height: 800px;
 }
+  
+  .hraffinitywall{
+    height: 400px;
+  }
 
 
 }
