@@ -592,7 +592,7 @@ Main Components
   right: 0;
 }
 .no-touch .cd-timeline-navigation a:hover {
-  border-color: #7b9d6f;
+  border-color: #A60707;
 }
 .cd-timeline-navigation a.inactive {
   cursor: not-allowed;
@@ -688,6 +688,7 @@ ol, li{
     list-style-type: none;
 }
 
+/* Tablet view */
 @media (min-width: 768px) and (max-width: 1199px){
     .wrapper{
         display: grid;
@@ -730,6 +731,50 @@ ol, li{
         font-size: 1.2rem;
     }
 
+}
+
+/* Desktop/laptop view */
+@media (min-width: 2000px){
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .wrapper > *{
+        padding: 2em;
+    }
+
+    .company_info h3, .company_info ul, .brand{
+        text-align: left;
+    }
+
+    #contact_header{
+        text-align: left;
+    }
+
+    nav{
+        width: 100%;
+    }
+    
+    .nav_links{
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+
+    .site_title{
+        font-size: 64px;
+    }
+
+    .cd-horizontal-timeline {
+        margin: 6em auto;
+    }
+    .cd-horizontal-timeline::before {
+    /* never visible - this is used in jQuery to check the current MQ */
+        content: 'desktop';
+    }
+
+    .cd-horizontal-timeline .events-content em {
+        font-size: 1.2rem;
+    }
 }
 
 @-webkit-keyframes cd-enter-right {
