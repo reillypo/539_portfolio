@@ -828,6 +828,11 @@ ol, li{
 
 }
 
+@media (prefers-reduced-motion){
+  .flip-card-inner{
+    transition: transform none;
+  }
+}
 
 @-webkit-keyframes cd-enter-right {
   0% {
