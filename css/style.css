@@ -60,6 +60,8 @@ a{
     text-decoration: underline #A60707;
 }
 
+
+
 footer a{
     color: #fff;
 }
@@ -243,15 +245,32 @@ iframe{
 
 .button {
     background-color: #A60707;
-    border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 7px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 18px;
+    margin: 4px 2px 4px;
     cursor: pointer;
+    font-family: 'Playfair Display', serif;
+
+  }
+
+  .button:hover, .button:focus {
+    color: #fff;
+    outline: 0;
+  }
+
+  .third {
+    border-color: #A60707;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #fff inset, 0 0 0 0 #A60707;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  .third:hover {
+    box-shadow: 0 0 10px 0 #fff inset, 0 0 10px 4px #A60707;
   }
 
 #current_description {
@@ -283,10 +302,6 @@ iframe{
     width:100%;
     font-size: 15px;
     min-height: 75px;
-    /* position: fixed; */
-    /* bottom: 0;
-    left: 0; right: 0; */
-
     background-color: black;
     color: white;
     z-index: 2;
@@ -857,7 +872,7 @@ ol, li{
   }
 
   #resume_pic{
-    height: 700px;
+    height: 800px;
 }
   
   .hraffinitywall{
@@ -972,7 +987,7 @@ h4{
   }
 
   #resume_pic{
-    height: 800px;
+    height: 1000px;
 }
   
   .hraffinitywall{
@@ -995,6 +1010,7 @@ h4{
     -o-transform: none !important;
     transform: none !important;
     animation-name: none !important;
+    box-shadow: none !important;
   }
 }
 
