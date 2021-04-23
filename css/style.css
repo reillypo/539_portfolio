@@ -243,6 +243,7 @@ iframe{
     font-size: 20px;
 }
 
+/* CSS animated buttons */
 .button {
     background-color: #A60707;
     color: white;
@@ -273,6 +274,7 @@ iframe{
     box-shadow: 0 0 10px 0 #fff inset, 0 0 10px 4px #A60707;
   }
 
+/* image carousel on about me page */
 #current_description {
     width: 700px;
     margin: auto;
@@ -298,6 +300,7 @@ iframe{
     border: 1px solid red;
 }
 
+/* footer */
 #foot{
     width:100%;
     font-size: 15px;
@@ -321,6 +324,7 @@ iframe{
     box-sizing: border-box;
 }
 
+/* contact form */
 .container{
     max-width: 1170px;
     margin-left: auto;
