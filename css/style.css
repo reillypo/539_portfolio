@@ -352,7 +352,7 @@ iframe{
 }
 
 .company_info{
-    background:#c9e6ff;
+  background: #F86868;
 }
 
 .company_info h3, .company_info ul{
@@ -361,7 +361,7 @@ iframe{
 }
 
 .contact{
-    background: #f9feff;
+  background: #FCE3E3;
 }
 
 .contact form{
@@ -389,12 +389,12 @@ iframe{
 }
 
 .contact form button{
-    background: #c9e6ff;
+    background: #F86868;
     text-transform: uppercase;
 }
 
 .contact form button:hover, .contact form button:focus{
-    background:#92bde7;
+    background:#A60707;
     color: #fff;
     outline:0;
     transition: background-color 2s ease-out;
@@ -407,7 +407,7 @@ iframe{
 .alert{
     text-align: center;
     padding: 10px;
-    background: #79c879;
+    background: #000000;
     color: #fff;
     margin-bottom: 10px;
     display: none;
