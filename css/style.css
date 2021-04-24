@@ -51,6 +51,10 @@ u{
     text-transform: uppercase;
 }
 
+#under_project_line{
+  width: 20%;
+}
+
 div {
     text-align: center;
 }
@@ -412,6 +416,41 @@ iframe{
     margin-bottom: 10px;
     display: none;
     margin-top: 10px;
+}
+
+/* Parallax Image on home page */
+.parallax {
+  /* The image used */
+  background-image: url(../images/mountains2.png);
+
+  /* Set a specific height */
+  min-height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax_paragraph{
+  color: #fff;
+}
+
+.black_box{
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 45%;
+  margin: 0 auto 35px;
+}
+
+.black_box2{
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 90%;
+  margin: 0 auto;
+}
+
+#hello_header{
+  color: #fff;
 }
 
 /* For interactive timeline */
@@ -811,6 +850,17 @@ ol, li{
         font-size: 1.2rem;
     }
 
+    /* Using flex to create columns for projects */
+    .parent{
+      display: flex;
+      align-items: center;
+    }
+    
+    .parent > div{
+      flex: 1;
+    }
+    
+
     h1{
       font-size: 4em;
       padding-left:15px;
@@ -1015,9 +1065,18 @@ h4{
     transform: none !important;
     animation-name: none !important;
     box-shadow: none !important;
+    background-attachment: scroll !important;
   }
 }
 
+/* background-attachment: fixed has problems on mobile, so turn it off for mobile */
+@media (max-width: 768px){
+  .parallax{
+    background-attachment: scroll;
+  }
+}
+
+/* keyframes for interactive timeline */
 @-webkit-keyframes cd-enter-right {
   0% {
     opacity: 0;
