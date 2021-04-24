@@ -776,8 +776,8 @@ ol, li{
 }
 
 .flip-card-back{
-  background-color: #fff;
-  color: #000000;
+  background-color: #000000;
+  color: #fff;
   transform: rotateY(180deg);
 }
 
@@ -931,6 +931,20 @@ ol, li{
     width: 50%;
   }
 
+  .flip-card{
+    width: 300px;
+    height: 400px;
+  }
+
+  #reilly-photo{
+    height: 400px;
+    width: auto;
+  }
+
+  .flip-card-back p{
+    font-size: 1.5em;
+  }
+
 }
 
 /* Desktop/laptop view */
@@ -1011,6 +1025,19 @@ ol, li{
     height: 400px;
   }
 
+  .flip-card{
+    width: 400px;
+    height: 500px;
+  }
+
+  #reilly-photo{
+    height: 500px;
+    width: auto;
+  }
+
+  .flip-card-back p{
+    font-size: 2em;
+  }
 
 }
 
