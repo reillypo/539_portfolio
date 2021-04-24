@@ -64,8 +64,6 @@ a{
     text-decoration: underline #A60707;
 }
 
-
-
 footer a{
     color: #fff;
 }
@@ -230,23 +228,6 @@ iframe{
   width: 90%;
 }
 
-#display_moment{
-    color: #ffffff;
-}
-
-#featured{
-    width: auto;
-    max-width: 90%;
-    max-height: 600px;
-    margin: auto;
-
-}
-
-#current_description{
-    max-width: 95%;
-    font-size: 20px;
-}
-
 /* CSS animated buttons */
 .button {
     background-color: #A60707;
@@ -280,10 +261,20 @@ iframe{
 
 /* image carousel on about me page */
 #current_description {
+    max-width: 95%;
+    font-size: 20px;
     width: 700px;
     margin: auto;
     height: 100px;
     text-align: center;
+}
+
+#featured{
+  width: auto;
+  max-width: 90%;
+  max-height: 600px;
+  margin: auto;
+
 }
 
 #thumbnails {
@@ -825,6 +816,10 @@ ol, li{
         text-align: left;
     }
 
+    li i{
+      font-size: 1.5em;
+    }
+
     nav{
         width: 100%;
     }
@@ -861,7 +856,7 @@ ol, li{
     }
     
 
-    h1{
+  h1{
       font-size: 4em;
       padding-left:15px;
       padding-top: 10px;
@@ -942,67 +937,30 @@ ol, li{
 
 /* Desktop/laptop view */
 @media (min-width: 1200px){
-  .wrapper{
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-  }
-  .wrapper > *{
-      padding: 2em;
-  }
-
-  .company_info h3, .company_info ul, .brand{
-      text-align: left;
-  }
-
-  #contact_header{
-      text-align: left;
-  }
-
-  nav{
-      width: 100%;
-  }
-  
-  .nav_links{
-      flex-direction: row;
-      justify-content: space-evenly;
-    }
 
   .nav_item a{
     font-size: 1.5em;
   }
 
-  .site_title{
-      font-size: 64px;
-  }
-
-  .cd-horizontal-timeline {
-      margin: 6em auto;
-  }
-  .cd-horizontal-timeline::before {
-  /* never visible - this is used in jQuery to check the current MQ */
-      content: 'desktop';
-  }
-
-  .cd-horizontal-timeline .events-content em {
-      font-size: 1.2rem;
+  li i{
+    font-size: 2em;
   }
 
   h1{
     font-size: 5em;
 }
 
-h2{
+  h2{
     font-size: 2.5em;
   }
 
-h3{
-    font-size: 2.25em;
-    
-}
+  h3{
+    font-size: 2.25em; 
+  }
 
-h4{
+  h4{
     font-size: 2em;
-}
+  }
 
 
   p{
@@ -1012,7 +970,7 @@ h4{
 
   #competitive_analysis{
     height:800px;
-}
+  }
 
   .paper_sketch{
     height:500px;
